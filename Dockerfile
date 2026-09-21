@@ -1,4 +1,5 @@
 FROM eclipse-temurin:17-jdk-jammy
 WORKDIR /app
 COPY . .
-CMD ["java", "-version"]
+RUN javac Main.java
+CMD ["java", "Main"]
