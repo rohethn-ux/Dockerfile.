@@ -4,7 +4,7 @@ import java.sql.Statement;
 
 public class Main {
     public static void main(String[] args) {
-        String url = "jdbc:mysql://host.docker.internal:3306/loandb";
+        String url = "jdbc:mysql://mysql:3306/loandb";
         String user = "root";
         String password = "mypassword123";
 
